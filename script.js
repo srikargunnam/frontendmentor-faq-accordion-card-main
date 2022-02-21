@@ -3,8 +3,6 @@ const faqQsns = document.querySelectorAll(".faq")
 const hiddenParas = document.querySelectorAll(".hidden")
 
 arrows.forEach((arrow) => {
-    // let faqQsn = arrow.parentElement.previousElementSibling.children[0];
-    // let hiddenPara = arrow.parentElement.previousElementSibling.children[1];
     let index;
     arrow.addEventListener("click", () => {
         for (let i = 0; i < arrows.length; i++){
